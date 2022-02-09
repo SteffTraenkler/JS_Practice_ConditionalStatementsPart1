@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/Styles/main.css">
+</head>
+
+<body>
+    <section class="age">
+        <h1>JavaScript: if else statement</h1>
+        <h2>Hier prüft die if else-Anwendung, ob die Input-marken größer als 18 sind oder nicht. Ober jemand Shisha
+            rauchen
+            darf, oder nicht (bäh!)</h2>
+    </section>
+    <section class="formS">
+        <form action="#" onsubmit="return false">
+            <label for="inputAge">Geben Sie Ihr Alter ein</label>
+            <input type="number" name="inputAge" id="inputAge">
+            <input type="submit" id="submit" value="Alter" onclick="adult()">
+        </form>
+        <div id="minorOrNot"></div>
+        <div id="areYouDisgusting"></div>
+    </section>
+
+    <section class="weather">
+        <form action="#" onsubmit="return false">
+            <label for="typeWeather">Type here how good your weather is ranging from 0 to 10</label>
+            <input type="number" name="typeWeather" id="typeWeather">
+            <input type="submit" id="submitWeather" value="Submit Your Weather" onclick="weatherType()">
+        </form>
+        <div id="weatherDIV">
+
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
